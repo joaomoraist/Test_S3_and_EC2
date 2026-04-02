@@ -21,7 +21,7 @@ O objetivo deste projeto foi configurar um ambiente real de nuvem para:
 - [x] Integração nativa com S3 utilizando perfis de instância (IAM).
 - [x] Deploy automatizado via Git no ambiente Linux.
 
-## ☁️ Provas de Conceito (Deploy Real)
+## ☁️ AWS
 
 ### 1. Inicialização da API no EC2
 Abaixo, o registro da aplicação rodando com sucesso dentro do servidor da AWS, pronta para receber requisições na porta `8080`.
