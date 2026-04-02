@@ -12,8 +12,8 @@ import software.amazon.awssdk.services.s3.model.PutObjectRequest;
 @RequestMapping
 public class s3Controller {
 
-    private final S3Client s3 = S3Client.builder().region(Region.US_EAST_1).build();
-    private final String BUCKET = "estudo-teste";
+    private final S3Client s3 = S3Client.builder().region(Region.US_EAST_2).build();
+    private final String BUCKET = "meu-bucket-estudo-original";
 
     @PostMapping("/upload")
     public String upload(@RequestParam("file") MultipartFile file) throws Exception {
